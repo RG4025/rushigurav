@@ -1,0 +1,620 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #D6D6D6;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0%;
+}
+
+
+i {
+  /* color: #F9D66E; */
+}
+
+
+/* Sidebar section css starts */
+
+
+
+
+.sidebarMain {
+  /* border-right: 2px dotted #F9D66E; */
+  width: 100%;
+}
+
+.myImage {
+  /* width: 33%; */
+  /* margin: 0 auto; */
+  border: 1px solid #F9D66E;
+  background-color: #343436;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.myImage img {
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.sidebarChildOne {
+  border-bottom: 1px dotted #F9D66E;
+}
+
+.socialOne {
+  border-bottom: 1px dotted #F9D66E;
+}
+
+.sidebarChildOne small {
+  background-color: #353536;
+  padding: 4px;
+  border: 2px solid #F9D66E;
+  border-radius: 10px;
+}
+
+
+.socialOne a i{
+  color: #F9D66E;
+}
+
+.socialOne a:hover i{
+  color: #f6c637;
+}
+
+.socialTwoOne {
+  background-color: #343436;
+  border: 2px solid gray;
+  color: gray;
+  font-size: 25px;
+  transition: all ease 0.5s;
+}
+
+.socialTwoOne:hover {
+  transform: scale(1.04);
+  border: 2px solid #F9D66E;
+
+}
+
+.socialTwoOne i {
+  color: #F9D66E;
+  transition: all ease 0.5s;
+}
+.socialTwoOne:hover .socialTwoOne i {
+  transform: scale(0.90);
+}
+
+.socialTwo strong {
+  color: #D6D6D6;
+}
+
+
+
+/* Sidebar section css ends */
+
+/* -------------------------------------------------------------------- */
+
+/* Mainsectioncss starts here */
+.sectionOneMain {
+  position: relative;
+}
+
+.navbarMainSection {
+  position: sticky;
+  top: 0%;
+  right: 1%;
+  width: fit-content;
+  background-color: #343436;
+  border-radius: 15px 0 15px 0;
+  border: 1px solid rgb(89, 88, 88);
+  z-index: 9999;
+}
+
+
+.mainsection {
+  height: 90vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+
+.navItem {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 1px 0px;
+}
+
+.active {
+  padding: 4px 0px;
+  color: #F9D66E;
+  border-bottom: 2px solid #F9D66E;
+}
+
+
+.navbarScroll {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  margin: 0 5px;
+  padding: 15px 5px;
+  padding-bottom: 5px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+}
+
+.navbarScroll li {
+  min-width: 30%;
+  scroll-snap-align: center;
+  list-style-type: none;
+}
+
+
+
+.navScrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 15px;
+
+}
+
+
+.navScrollbar::-webkit-scrollbar-track-piece {
+  background-color: #F9D66E;
+}
+
+
+.navScrollbar::-webkit-scrollbar-thumb {
+  background-color: #F9D66E;
+  height: fit-content;
+  border: 1px solid rgb(89, 88, 88);
+  border-radius: 5px;
+  width: 10px;
+}
+
+/* About section css starts here */
+
+.aboutTitle {
+  color: #F9D66E;
+  /* border-bottom: 2px solid #F9D66E; */
+  position: relative;
+}
+
+.aboutTitle::after {
+  position: absolute;
+  inset: 100% 0 0 0;
+  content: " ";
+  background-color: #F9D66E;
+  width: 30%;
+  height: 3px;
+}
+
+.aboutSectionParent p {
+  color: #D6D6D6;
+  word-spacing: 2px;
+  /* line-height: 4vh; */
+}
+
+.aboutChildTwoParent {
+  position: relative;
+  background-color: #343436;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.aboutChildTwo {
+  background-color: #353536;
+  border-radius: 10px;
+  /* padding: 10px; */
+  font-size: 25px;
+}
+
+.aboutChildTwo img {
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.aboutSectionParentTwo {
+  z-index: -1;
+}
+
+
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid #F9D66E !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+  background: #F9D66E !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  display: none;
+}
+
+.owlItem {
+  background-color: #1D1D1E;
+  border-radius: 10px;
+}
+
+.owl-carousel .owl-item {
+  border-bottom: none;
+}
+
+/* About section css ends here */
+
+
+/* Skill section css Starts here */
+
+.skillChildOne {
+  background-color: #343436;
+  border-radius: 10px;
+  border: 1px solid gray;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+
+.skillImage {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.skillImage img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  border: 2px solid #fff;
+  transition: all ease 0.5s;
+}
+
+.skillChildOne:hover .skillImage img {
+  border: 2px solid #F9D66E;
+  transform: scale(0.95);
+}
+
+.skillChildOne:hover {
+  border: 1px solid #F9D66E;
+  color: #F9D66E;
+}
+
+.skillChildOne:hover span {
+  color: #F9D66E;
+}
+
+.skillChildTwo {
+  background-color: #343436;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+/* Skill section css ends here */
+
+
+/* Contact Section starts here */
+
+.contactMain input,
+textarea {
+  background-color: #343436;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid gray;
+  transition: all ease 0.5s;
+
+  outline: #F9D66E;
+}
+
+.contactMain input:focus,
+textarea:focus {
+  border: 1px solid #F9D66E;
+  color: #fff;
+  outline: #F9D66E;
+}
+
+
+
+.contactIcon {
+  color: #fff;
+  transition: all ease 0.4s;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #343436;
+  padding: 10px;
+}
+
+.contactIcon:hover {
+  color: black;
+  transform: scale(1.09);
+  background-color: #353536;
+  border: 2px solid #F9D66E;
+
+}
+
+.contactMain input title {
+  background-color: #343436;
+  color: white;
+  border: 1px solid gray;
+}
+
+/* Contact Section ends here */
+
+
+/* Project section css Starts Here */
+
+.sectionProject select {
+  outline: none;
+  color: #fff;
+
+}
+
+.sectionProject select option {
+  background-color: #343436;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.projectCard {
+  background-color: #464648;
+  overflow: hidden;
+}
+
+.projectDemoIframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Project section css Ends Here */
+
+
+/* Education Section Css Starts Here */
+
+
+.education-list {
+  font-size: 15px;
+  margin-left: 19px;
+}
+
+.educationItem {
+  position: relative;
+}
+
+.educationItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.educationItem-title {
+  line-height: 1.3;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+.education-list span {
+  color: #F9D66E;
+  font-weight: var(--fw-400);
+  line-height: 1.6;
+}
+
+.educationItem:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  width: 1px;
+  height: calc(100% + 50px);
+  background: #F9D66E;
+}
+
+.educationItem::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -33px;
+  height: 6px;
+  width: 6px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px crimson;
+}
+
+.educationText {
+  line-height: 1.6;
+}
+
+
+/* Education Section Css Ends Here */
+
+
+/* Mainsectioncss ends here */
+
+/* ----------------------------------------------------------------------- */
+
+
+/* Home css ends here */
+
+.sidebar {
+  background-color: #1E1E1F;
+  height: fit-content;
+  border: 1px solid rgb(89, 88, 88);
+  border-radius: 15px;
+}
+
+.sectionone {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #121212;
+  color: #fff;
+}
+
+.secOneChildOne {
+  height: 95vh;
+  background-color: #1E1E1F;
+  border: 1px solid rgb(89, 88, 88);
+  border-radius: 15px;
+}
+
+
+.has-scrollbar::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+.has-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 15px;
+
+}
+
+
+.has-scrollbar::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #353536;
+  height: fit-content;
+  border: 1px solid rgb(89, 88, 88);
+  border-radius: 5px;
+  width: 10px;
+}
+
+/* Home css ends here */
+
+
+/* ----------------------------------------------------------------------- */
+
+
+
+@media(min-width:512px) {
+  .navbarMainSection {
+    top: 10%;
+    right: 7%;
+  }
+
+
+}
+
+@media(min-width:768px) {
+  .navbarMainSection {
+    top: 0%;
+    right: 7%;
+  }
+
+  .navbarScroll {
+
+    overflow-x: hidden;
+    gap: 20px;
+    margin: 0;
+    padding: 5px 5px;
+    padding-bottom: 5px;
+  }
+
+  .navbarScroll li {
+    min-width: 10%;
+    margin: 0 10px;
+  }
+
+  #exampleModal {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+
+  }
+
+  .modal-body {
+    width: 100%;
+    height: 400px;
+    overflow-y: hidden;
+  }
+
+  .projectDemoIframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media(min-width: 992px) {
+  .navbarMainSection {
+    top: 0%;
+    right: 6%;
+  }
+
+  .aboutChildTwo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .secOneChildOne {
+    height: 90vh;
+  }
+
+  .navbarMainSection {
+    top: 0%;
+    right: 2%;
+  }
+
+  .sectionone {
+    overflow-y: hidden;
+  }
+
+  .myImage {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .myImage img {
+    height: 140px;
+  }
+
+  .socialOne {
+    border-bottom: 1px dotted #F9D66E;
+  }
+
+  .sidebar {
+    height: 90vh;
+  }
+}
