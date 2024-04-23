@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/rushigurav/static/css/main.c061f118.css",
+    "main.js": "/rushigurav/static/js/main.8d016a8e.js",
+    "static/media/uomoImg.png": "/rushigurav/static/media/uomoImg.f4d6c14c10443ecf463f.png",
+    "static/media/satyamevImg.png": "/rushigurav/static/media/satyamevImg.f0e2eadbc69e27614d25.png",
+    "static/media/hollyImg.png": "/rushigurav/static/media/hollyImg.5e3936321ce699cfac22.png",
+    "static/media/reflectorImg.png": "/rushigurav/static/media/reflectorImg.c8d6c8f7eb0171178330.png",
+    "static/media/confeyImg.png": "/rushigurav/static/media/confeyImg.cad8fc3dfb79c0170048.png",
+    "static/media/gymImg.png": "/rushigurav/static/media/gymImg.392eed2e1bfed8a5a4d7.png",
+    "static/media/rgphotography.png": "/rushigurav/static/media/rgphotography.1e67faa409458a05964a.png",
+    "static/media/rgconsultingImg.png": "/rushigurav/static/media/rgconsultingImg.59e2f500be79b0ad5bd3.png",
+    "static/media/javascript_Rushi.pdf": "/rushigurav/static/media/javascript_Rushi.34883bd1a7556302866d.pdf",
+    "static/media/CourseraReactBasics.pdf": "/rushigurav/static/media/CourseraReactBasics.ab3273d0aa5e5a599d20.pdf",
+    "static/media/CourseraRushikeshGurav.pdf": "/rushigurav/static/media/CourseraRushikeshGurav.903ecb2714a43b2becaf.pdf",
+    "static/media/udemyC++.pdf": "/rushigurav/static/media/udemyC++.df354b71001fd026c224.pdf",
+    "static/media/MS-CIT_Rushi.pdf": "/rushigurav/static/media/MS-CIT_Rushi.a41aa2380831c702b76c.pdf",
+    "static/media/reactProject2.png": "/rushigurav/static/media/reactProject2.f0ce114837b293b90c59.png",
+    "static/media/RushikeshGuravResume.pdf": "/rushigurav/static/media/RushikeshGuravResume.08969fd555075d8c6881.pdf",
+    "static/media/myImage.jpg": "/rushigurav/static/media/myImage.0a92c199295a34cd925a.jpg",
+    "static/media/jdbc_logo.png": "/rushigurav/static/media/jdbc_logo.175dc0440b19d7aca8c9.png",
+    "static/media/jquery_logo.jpg": "/rushigurav/static/media/jquery_logo.05aa1d87295244ad0dcf.jpg",
+    "index.html": "/rushigurav/index.html",
+    "main.c061f118.css.map": "/rushigurav/static/css/main.c061f118.css.map",
+    "main.8d016a8e.js.map": "/rushigurav/static/js/main.8d016a8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c061f118.css",
+    "static/js/main.8d016a8e.js"
+  ]
+}
